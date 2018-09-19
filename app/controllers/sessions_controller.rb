@@ -9,6 +9,7 @@ class SessionsController < ActionController::Base
       session[:name] = params[:name]
       redirect_to "/"
   end
+end
 
   def destroy
     session.delete :name
