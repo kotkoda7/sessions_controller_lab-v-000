@@ -12,7 +12,7 @@ class SessionsController < ActionController::Base
 
   def destroy
     session.delete :name
-    
+    redirect_to '/'
   end
   
 end
