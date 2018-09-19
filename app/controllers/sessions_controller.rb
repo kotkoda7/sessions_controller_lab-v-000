@@ -4,7 +4,7 @@ class SessionsController < ActionController::Base
 
   def create
     if params[:name].nil?
-      redirect_to 
+      redirect_to '/login'
   end
 
   def destroy
