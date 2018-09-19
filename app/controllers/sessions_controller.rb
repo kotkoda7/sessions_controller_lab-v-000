@@ -3,7 +3,7 @@ class SessionsController < ActionController::Base
   end
 
   def create
-    
+    if params[:name].nil?
   end
 
   def destroy
