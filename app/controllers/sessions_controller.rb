@@ -3,6 +3,7 @@ class SessionsController < ActionController::Base
   end
 
   def create
+    
   end
 
   def destroy
